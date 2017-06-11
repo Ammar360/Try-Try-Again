@@ -1,0 +1,18 @@
+background(13, 255, 0);
+fill(247, 255, 0);
+ellipse(200,200,200,200);
+draw= function() {
+   
+   var x=random(0,255);
+var y=random(0,255);
+var z=random(0,255);
+fill(x, y, z);
+ellipse(168,159,20,20);
+ellipse(235,161,20,20); 
+
+};
+
+fill(0, 0, 0);
+arc(200,240,100,50,0,190);
+textSize(39);
+text("It's Johnny!",91,69);
